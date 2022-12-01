@@ -53,6 +53,7 @@ article {
   -moz-box-shadow: 4px 5px 19px -4px #000000;
   -o-box-shadow: 4px 5px 19px -4px #000000;
   box-shadow: 4px 5px 19px -4px #000000;
+  padding-bottom: 20px;
 }
 /* ELEMENTI NEL MAIN - ARTICLE */
 .title > h1 {
@@ -110,6 +111,14 @@ code {
   margin-bottom: 25px;
 }
 
+.lower_container {
+  width: 380px;
+  background-color: rgb(221, 216, 216);
+  padding: 0 15px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
 /* TABELLE */
 caption {
   font-style: italic;
@@ -118,14 +127,14 @@ caption {
 
 th {
   color: white;
-  border: 1px solid grey;
+  border: 1px solid rgb(168, 168, 168);
   padding: 15px;
   background-color: rgb(32, 110, 255);
 }
 
 .white {
   color: rgb(0, 0, 0);
-  border-top: 1px solid grey;
+  border-top: 1px solid rgb(168, 168, 168);
   padding: 15px;
   background-color: rgb(255, 255, 255);
 }
@@ -154,10 +163,102 @@ iframe {
   width: 410px;
   height: 220px;
   border-radius: 20px;
-  margin-bottom: 25px;
+  margin-top: 25px;
 }
 /* FORM */
 
+.lower_container > h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.lower_container > p {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+form {
+  text-align: left;
+}
+
+input {
+  width: 280px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px dashed grey;
+  font-size: 17px;
+}
+
+button {
+  width: 85px;
+  height: 32px;
+  font-size: 17px;
+  font-weight: 700;
+  background-color: rgb(32, 110, 255);
+  color: white;
+  border: none;
+}
+
 /* ELEMENTI NELL' ASIDE */
 
-/* FOOTER */ ;
+aside > h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.lower_container.art {
+  margin: 20px 0;
+}
+
+.lower_container.art h3 > a {
+  color: rgb(21, 150, 255);
+}
+
+.lower_container > h3 {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.lower_container p > i {
+  color: black;
+}
+
+.data_article {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-left: 220px;
+}
+/* FOOTER */
+
+.credits {
+  width: 410px;
+  background: rgb(0, 112, 100);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 112, 100, 1) 0%,
+    rgba(0, 87, 87, 1) 50%,
+    rgba(0, 112, 100, 1) 100%
+  );
+  margin: 25px auto;
+  padding: 15px 20px;
+  line-height: 30px;
+  -webkit-box-shadow: 4px 5px 19px -4px #000000;
+  -moz-box-shadow: 4px 5px 19px -4px #000000;
+  -o-box-shadow: 4px 5px 19px -4px #000000;
+  box-shadow: 4px 5px 19px -4px #000000;
+  padding-bottom: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+#last {
+  margin-bottom: 25px;
+}
+
+.credits p > a {
+  color: rgb(181, 0, 226);
+}
